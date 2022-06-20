@@ -1,0 +1,181 @@
+/* about us and contact us */
+
+.about_us {
+    position: relative;
+    height: 1200px;
+    top: 116.5rem;
+    background-color: black;
+
+}
+
+#aboutUs {
+    background-color: rgb(240, 84, 66);
+    height: 250px;
+}
+
+#aboutUs h1 {
+    font-size: 10rem;
+    font-family: MuseoModerno;
+    position: relative;
+    left: 40rem;
+}
+
+#aboutUs h1:hover {
+    color: lime;
+}
+
+#UsModify {
+    background-color: lime;
+    position: relative;
+    top: -15.55rem;
+    height: 250px;
+    width: 39rem;
+}
+
+.about_us img {
+    height: 80rem;
+    position: relative;
+    top: -320px;
+    left: -550px;
+    animation: icon 1.5s infinite;
+}
+
+@keyframes icon {
+
+    50% {
+        opacity: 0.5;
+    }
+
+}
+
+
+#Us_container {
+    background-color: grey;
+    height: 50rem;
+    width: 70rem;
+    position: relative;
+    left: 40rem;
+    bottom: 90rem;
+    border: 3px solid green;
+    box-shadow: 10px 10px 10px greenyellow;
+    animation: aboutus 8s infinite;
+}
+
+@keyframes aboutus {
+    30% {
+        box-shadow: 10px 20px 30px blue;
+    }
+
+    60% {
+        box-shadow: 10px 20px 30px aqua;
+    }
+
+    90% {
+        box-shadow: 10px 20px 30px orange;
+    }
+}
+
+#Us_container p {
+    font-size: 30px;
+    position: relative;
+    padding: 40px;
+    font-family: cursive;
+    border: 14px solid black;
+
+}
+
+/* #contact us */
+
+#contact {
+    background-color: red;
+    position: relative;
+    top: 117rem;
+    height: 100px;
+    animation: retro 6s infinite;
+
+
+}
+
+@keyframes retro {
+
+    25% {
+        background-color: black;
+    }
+
+    50% {
+        background-color: limegreen;
+    }
+
+    75% {
+        background-color: yellow;
+    }
+
+    90% {
+        background-color: goldenrod;
+    }
+
+}
+
+#contact h1 {
+    font-size: 5rem;
+    position: relative;
+    left: 43rem;
+    animation: retro2 6s infinite;
+}
+
+@keyframes retro2 {
+
+    25% {
+        color: saddlebrown;
+    }
+
+    50% {
+        color: gold;
+    }
+
+    75% {
+        color: teal;
+    }
+
+    90% {
+        color: magenta;
+    }
+
+}
+
+#icon-box {
+    display: flex;
+    justify-content: center;
+}
+
+
+.icons img {
+    height: 200px;
+    border: 2px solid black;
+    padding: 50px;
+    margin: 10px;
+    margin-bottom: 70px;
+    border-radius: 20px;
+}
+
+.icons img:hover {
+    background-color: gold;
+}
+
+#contact p{
+    position: relative;
+    font-size: 20px;
+    left: 40rem;
+    padding-bottom: 100px;
+    animation: textCol 2s infinite;
+}
+
+@keyframes textCol {
+    50%{color: blueviolet;}
+}
+
+#copyright h3{
+    color: chocolate;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
